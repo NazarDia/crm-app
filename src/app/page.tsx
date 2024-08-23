@@ -8,11 +8,11 @@ export default function Home() {
         Home page
       </h1>
       <div className="flex items-center gap-4 mx-auto">
-        <Link href="/companies">
-          <Button>Companies</Button>
-        </Link>
         <Link href="/dashboard">
           <Button>Dashboard</Button>
+        </Link>
+        <Link href="/companies">
+          <Button>Companies</Button>
         </Link>
       </div>
     </main>
